@@ -31,6 +31,7 @@ Node server.js
 2)**Запуск клиента**
 ```
 Cd T1
+npm install
 Npm start
 ```
 
