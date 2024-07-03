@@ -1,0 +1,49 @@
+.Form_Sign{
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-self: end;
+}
+
+input[type=text],[type=email] {
+    border: 1px solid #a4ce5a84;        /* Remove default borders */
+    padding: 4px 8px;
+    background-color : #d1d1d128;
+    border-radius: 12px; /* Sadly outline does not round! therefore...*/
+    margin: 10px;
+    color: rgb(240, 255, 240);
+    width: 300px;
+    
+  }
+
+
+.field{
+    clear:both; 
+    text-align:right;
+    
+}
+label {
+    display: inline;
+    width: 310px;}
+    
+  .Form_Sign_btn{
+    background: #83ce5a;
+    width: 180px;
+    height: 29px;
+    border-radius: 30px;
+    color: #220C38;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.Form_Sign_btn:hover{
+    background: #adda5fd2;
+}
+.Form_Sign_p{
+    font-style: italic;
+}
+  

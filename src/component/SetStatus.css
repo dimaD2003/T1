@@ -1,0 +1,33 @@
+
+.status_content{
+    width: 50%;
+    margin: auto;
+}
+
+.status_btn{
+    background: #83ce5a;
+    width: 150px;
+    margin: 0px 10px;
+    height: 29px;
+    border-radius: 30px;
+    color: #220C38;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.status_btn:hover{
+    background: #adda5fd2;
+}
+.status_p{
+    font-style: italic
+}
+select.status_select{
+    width: 150px;
+    border: 1px solid #a4ce5a84;        /* Remove default borders */
+    padding: 4px 8px;
+    background-color : #d1d1d175;
+    border-radius: 12px; /* Sadly outline does not round! therefore...*/
+    margin: 10px;
+    color:#191a17
+}
